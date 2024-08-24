@@ -104,6 +104,20 @@ Use your favorite AUR helper to install it. Or in the directory containing the `
 
 You can download the [Linux ZIP file](https://github.com/qwerty-fr/qwerty-fr/releases/latest) and then extract it at the root of your filesystem.
 
+### *BSDs
+
+Download the [QWERTY-fr Layout](https://github.com/qwerty-fr/qwerty-fr/blob/master/linux/us_qwerty-fr) and then copy/deplace it at
+these locations
+
+#### For OpenBSD-like:
+> /usr/X11R6/share/X11/xkb/symbols/ 
+
+#### For NetBSD-like
+> /usr/X11R7/share/X11/xkb/symbols/
+
+#### For FreeBSD-like
+> /usr/local/share/X11/xkb/symbols
+
 ## 📣 Frequently asked questions
 
 ### The math dead key doesn't do anything on Windows
